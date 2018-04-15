@@ -1,5 +1,5 @@
 # Botkeeper
----
+
 ## Task
 * building a NodeJS service to aggregate data from two different apis and then return it to the user. There is a products api and an inventory api, they have the following api endpoints: 
 
@@ -14,8 +14,7 @@
 
 ### What needs to be built: 
 #### Create two api endpoints in NodeJS service to do the following:
-An api endpoint for the user to get all of the products along with each products inventory. It should return an array of products that include the product's name, price and inventory
-An api endpoint for the user to get a single product and have it return the product name, price and inventory. 
-There is no authentication or authorization required to access the apis. Feel free to get as creative as you want, and extra points if you use ES6. Please implement error handling, so that if I pass in a product that does not exist it returns a message to user letting them know that the product they requested does not exist. 
 
-One you are done with the project, please upload it to your github and email me the link. You have one week to finish the project. If you have any questions feel free to ask.
+* An api endpoint for the user to get all of the products along with each products inventory. It should return an array of products that include the product's name, price and inventory.
+* An api endpoint for the user to get a single product and have it return the product name, price and inventory. 
+* There is no authentication or authorization required to access the apis. 
